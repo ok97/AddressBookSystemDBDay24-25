@@ -21,3 +21,13 @@ email varchar(20) not null
 select * from AddressBook;
 
 
+
+--- UC3:- Ability to insert new Contacts to Address Book.
+
+insert into AddressBook (firstName,lastName,address,city,state,zip,phoneNumber,email) values('Omprakash','Khawshi','Alandi','Pune','Maharashtra','412105','8788616249','omkhawshi@gmail.com');
+select * from AddressBook;
+
+insert into AddressBook values('Om','Khawshi','Alandi','Pune','Maharashtra','12105','876249','kk@gmail.com');
+
+insert into AddressBook values('Rahul','Nayr','Nagpur','Nagpur','Maharashtra','442203','12345678910','opre@gmail.com');
+
