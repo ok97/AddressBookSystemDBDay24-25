@@ -113,3 +113,9 @@ from AddressBook;
 select Type, count(*) as TypeCount 
 from AddressBook
 group by Type;
+
+
+--UC11:- Ability to add person to both Friend and Family.
+
+insert into AddressBook(firstName,lastName,address,city,state,zip,phoneNumber,email,Name,Type) values('Jimmy','Kaka','Ala','Karanja','Maharashtra','126105','8762498989','jimmy@gmail.com','JimmyContact','Family');
+select * from AddressBook;
