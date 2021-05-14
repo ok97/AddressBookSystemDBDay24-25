@@ -31,3 +31,13 @@ insert into AddressBook values('Om','Khawshi','Alandi','Pune','Maharashtra','121
 
 insert into AddressBook values('Rahul','Nayr','Nagpur','Nagpur','Maharashtra','442203','12345678910','opre@gmail.com');
 
+--- UC4:- Ability to edit existing contact person using their name.
+
+update AddressBook set zip=445566 where firstName='Om';
+select * from AddressBook;
+
+update AddressBook set email='orkhawshi@min' where firstName='Om';
+select * from AddressBook;
+
+update AddressBook set lastName='Bannagre' where firstName='Rahul';
+select * from AddressBook;
